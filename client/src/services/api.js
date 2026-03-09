@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.onrender.com/api' // Replace with your backend URL after deployment
+  ? 'https://shopez-backend-c26l.onrender.com/api'
   : 'http://localhost:8000/api';
 
 const api = axios.create({
